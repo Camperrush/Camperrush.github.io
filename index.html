@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="uk">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -19,13 +19,14 @@
 	<!-- Стилі сайту -->
 	<link rel="stylesheet" href="css/styles.css">
 	<link rel="stylesheet" href="css/bgvideo.css">
-	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-H5Jss06mbif+ppmYSBQZtuzgYWhp5SuF4IAp7I2N+aAdBZ5tEFsEa43xh90pfATQYjnLQcX6Q1aG8jRIBwI3eg==" crossorigin="anonymous" />
+	<link rel="stylesheet" href="css/responsive.css">
  
-	<!-- Font-awesome -->
-	<script src="https://kit.fontawesome.com/d0a6cb844c.js" crossorigin="anonymous"></script>
-
 	<!-- Popper and js -->
-	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+	<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+	<script src="libs/js/script.js"></script>
 
     <!-- Google fonts -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -35,38 +36,75 @@
 	<!-- SEO -->
 
 	<meta name="description" content="Бліцтаксі це львівська служба таксі【303】Замовити таксі у Львові ☝ Швидка подача таксі ⚡ Низькі тарифи ✔️ Замовлення за допомогою номера, на сайті або онлайн через додаток">
-	<meta name="title" content="Таксі 303 по Львову ᐈ Замовлення таксі за номером 303 та онлайн або через додаток">
+	<meta name="title" content="✅️ Таксі &quotБліц&quot【303】у Львові ≡ Замовити службу таксі за номером 303 ≡">
 	<meta name="robots" content="none">
+
+	<!-- FA (Fontawesome) -->
     
+	<script src="https://kit.fontawesome.com/d0a6cb844c.js" crossorigin="anonymous"></script>
+
 </head>
 <body>
 	<nav class="navbar">
 		<div class="container">
-			<img src="images/logotaxi333.webp" class="navbar-brand" alt="логотип сайту"></img>
+			<img src="images/logotaxi333.webp" class="navbar-brand" alt="логотип сайту" title="логотип &quotБліцтаксі&quot 303"></img>
+			<span class="highlight_first">БЛІЦ ТАКСІ</span>
 			<div class="navbar-wrap">
-				<ul class="navbar-menu">
-					<li><a href="#">Про нас</a></li>
-					<li><a href="#">Тарифи</a></li>
-					<li><a href="#">Додаток</a></li>
-					<li><a href="#">Контакти</a></li>
-				</ul>
-				
-					<a href="tel:+0933030003" class="callback">Замовити таксі</a>
+					<ul class="navbar-menu">
+						<li><a href="#">Про нас</a></li>
+						<li><a href="#">Тарифи</a></li>
+						<li><a href="#">Додаток</a></li>
+						<li><a href="#">Контакти</a></li>
+						<li class="phonenumber"><a href="tel:+0933030003"> <img src="images/phone303.webp" alt="phone303" title="телефон 303" width="90px"></a></li>
+					</ul>
+					<a href="https://play.google.com/store/apps" target="_blank" class="callback">Замовити таксі</a>
 				</div>
-				
 		</div>
 	</nav>
 
-	<section>
+
+	<main>
 		<div class="bgvideo">
 		   <video src="images/taxi.mp4" type="video/mp4" autoplay muted loop></video>
-		   <div class="effect"></div>
 		   <div class="video-text">
-			<h1>Бліцтаксі вже у Львові</h1>
-			<h2>Шукай нас в додатках</h2>
-		   </div>
+			   <span class="name_first">Бліцтаксі вже у Львові</span>
+			   <span class="name_second">Шукай нас в додатках</span>
+			   <div class="bgbadges">
+				<a class="banner-main__app-item" rel="nofollow" target="_blank" href="https://play.google.com/store/apps" aria-label="link to Google Play">
+					<img width="160" height="65" src="images/google-play-badge.webp" alt="googleplay" title="googleplay">
+				</a>
+				  
+				<a class="banner-main__app-item" rel="nofollow" target="_blank" href="https://www.apple.com/ua" aria-label="link to App Store">
+					<img width="160" height="51" src="images/app-store-badge_eng_.webp" alt="appstore" title="appstore">
+				</a>
+			   </div>
+		  </aside>
 		</div>
-    </section>
+		  <section class="content-block">
+			  <div class="container__content">
+			   <h1>Бліцтаксі у Львові: служба <span class="highlight_second">303</span></h1>
+			   <p>Ми знаем як важливо буває не запізнитися на роботу, екскурсію або на побачення особливо у ситуаціях, коли потрібно швидко потрапити на місце зустрічі. Наша компанія "Бліцтаксі" пропонує оперативні, безпечні послуги таксі у місті Львові, за найнижчими тарифами. Ми плануємо розширювати свою діяльність в межах міста та підтримувати високу якість обслуговування для мешканців і гостей міста Лева. Однією з переваг "303" є можливість замовлення таксі у Львові через дзвінок до колцентру або за допомогою мобільного додатку.</p>
+			   <details class="content">
+				  <summary>
+					<strong>Ласкаво просимо до "Бліцтаксі" – Вашого нового партнера в комфортних подорожах!</strong>
+				  </summary>
+				  <div class="content__block">
+					<p>Вітаємо вас у світі передових технологій та бездоганного сервісу! Ми – "Бліцтаксі", молода та динамічно розвиваюча компанія, яка вже завоювала довіру пасажирів у Львові. Наше завдання – зробити Ваші мандрівки максимально зручними та безпечними.</p>
+					<h2>Ключові переваги "Бліцтаксі":</h2>
+					<ul>
+					  <li><strong>Швидкість та точність.</strong> Завдяки нашій передовій технологічній платформі, Ви можете бути впевнені, що Ваше таксі буде на місці вчасно, навіть у пік години.</li>
+					  <li><strong>Комфорт та безпека.</strong> Наші водії – це професіонали з великим досвідом роботи, які завжди дбають про ваш комфорт та безпеку під час подорожі.</li>
+					  <li><strong>Доступні ціни.</strong> "Бліцтаксі" пропонує конкурентоспроможні тарифи, що робить наш сервіс доступним для кожного.</li>
+					  <li><strong>Клієнтоорієнтований підхід.</strong> Ми завжди відкриті до Вашого фідбеку та готові надати індивідуальні рішення для кожного клієнта.</li>
+					  <li><strong>Зручне замовлення.</strong> Наша додаток дозволяє вам легко та швидко замовити таксі всього лише кількома клацаннями.</li>
+					</ul>
+					<h2>Оберіть "Бліцтаксі" – оберіть комфорт та якість в кожній подорожі!</h2>
+					<p>Приєднуйтесь до тисяч задоволених клієнтів, які вже скористалися послугами "Бліцтаксі" та переконалися в надійності нашого сервісу. З нами Ваші подорожі стануть справжнім задоволенням!</p>
+				  </div>
+				</details>
+			  </div>
+		  </section>
+    </main>
 
 	<footer>
 		<section class="footer">
@@ -95,7 +133,7 @@
 					<div class="col-md-3 col-6">
 						<h4>Контакти</h4>
 						<ul class="list-unstyled">
-							<li><a href="tel:+0983030000">098 303-00-00 (viber)</a></li>
+							<li><a href="tel:+0983030000">098 303-00-00 (Viber)</a></li>
 							<li><a href="tel:+0933030003">093 303-00-03</a></li>
 								<li>taxilviv303@gmail.com</li>
 								<li>м. Львів, вул Стрийська 99</li>
@@ -105,21 +143,16 @@
 					<div class="col-md-3 col-6">
 						<h4>Наші соц.мережі</h4>
 						<div class="footer-icons">
-							<a href="#"><i class="fab fa-facebook-f"></i></a>
-							<a href="#"><i class="fab fa-youtube"></i></a>
-							<a href="#"><i class="fab fa-instagram"></i></a>
+							<a href="https://www.facebook.com/profile.php?id=100072829435601" target="_blank"><i class="fab fa-facebook-f"></i></a>
+							<a href="https://t.me/rejectolddays" target="_blank"><i class="fab fa-telegram"></i></a>
+							<a href="https://www.instagram.com/danyil_rodin/" target="_blank"><i class="fab fa-instagram"></i></a>
 						</div>
 						</div>
-								
-
-					
-
 
 				</div>
 			</div>
 		</section>
 	</footer>
 
-	
 </body>
 </html>

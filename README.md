@@ -1,2 +1,2 @@
 # HTML &amp; CSS практика
-ITstepLVIV.
+Шаблон для HTML &amp; CSS практики на YouTube канале AVIS TV
