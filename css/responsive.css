@@ -1,10 +1,28 @@
 /* Mobile */
 @media (max-width: 480px) {
+  .highlight_first {
+    display: none;
+  }
+
+  .callback {
+    display: none;
+  }
+
+  .footer {
+    font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  }
+
+  .navbar .container {
+    font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  }
+
+  .bgvideo {
+    font-size: clamp(0.75rem, 0.659rem + 0.45vw, 1rem);
+  }
 }
 
 /* Extra small devices */
 @media (min-width: 481px) and (max-width: 767px) {
-  
 }
 
 /* Small tablets */
